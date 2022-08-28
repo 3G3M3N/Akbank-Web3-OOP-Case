@@ -88,9 +88,7 @@ Boğaz köprüsü HGS sistemine hoşgeldiniz!
  
 3. Otobüs Ekleme
  
-4. Geçen Araçları görüntüleme
- 
-4. Yönetim İşlemleri
+4. Yönetim İşlemleri(Geçen araçları görüntüleme ve toplam bakiyeyi görüntüleme)
 
 5. Gişe İşlemleri 
 
