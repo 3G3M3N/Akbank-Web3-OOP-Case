@@ -70,8 +70,8 @@ class gise:
 #Yönetim Sınıfı   
 class yönetim:
     def __init__(self):
-        print("Yönetim İşlemlerine Hoşgeldiniz!)
-        yönetimislem = input("1: Geçen Araçları Görüntüleme, 2: Toplam Bakiyeyi Görüntüleme")
+        print("Yönetim İşlemlerine Hoşgeldiniz!")
+        yönetimislem = input("1: Geçen Araçları Görüntüleme, 2: Toplam Bakiyeyi Görüntüleme, Lütfen Bir Sayı Tuşlayınız: ")
         if (yönetimislem == "1"):
               print(gunluk_gecen_arac_listesi)
         elif (yönetimislem == "2"):
@@ -82,9 +82,7 @@ class yönetim:
 #Giriş Ekranı
 print("""
 ---------------------------------------------------------------------
-
 Boğaz köprüsü HGS sistemine hoşgeldiniz!
-
 İşlemler:
  
 1. Otomobil Ekleme
@@ -98,9 +96,7 @@ Boğaz köprüsü HGS sistemine hoşgeldiniz!
 5. Gişe İşlemleri 
 
 İşlemlerden birini seçmek için önündeki sayıyı yazmanız yeterlidir.
-
 Programı kapatmak için 'q' tuşuna basınız.
-
  ---------------------------------------------------------------------
 """)
 
@@ -122,5 +118,3 @@ while True:
         gise() 
     else:
         print("Farklı bir sayı girdiniz, lütfen tekrar deneyin.")
-
-
