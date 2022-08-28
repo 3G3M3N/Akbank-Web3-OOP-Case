@@ -70,6 +70,8 @@ class gise:
 #Yönetim Sınıfı   
 class yönetim:
     def __init__(self):
+        print("Yönetim İşlemlerine Hoşgeldiniz!)
+        yönetimislem = input("1: Geçen Araçları Görüntüleme, 2: Toplam Bakiyeyi Görüntüleme")
         print(gunluk_gecen_arac_listesi)
 
 
