@@ -90,9 +90,9 @@ Boğaz köprüsü HGS sistemine hoşgeldiniz!
  
 4. Geçen Araçları görüntüleme
  
-5. Kazanılan Parayı Görüntüleme
+4. Yönetim İşlemleri
 
-6. Gişe İşlemleri 
+5. Gişe İşlemleri 
 
 İşlemlerden birini seçmek için önündeki sayıyı yazmanız yeterlidir.
 
@@ -117,7 +117,7 @@ while True:
         yönetim()
     elif (islem == "5"):
         print(gunluk_kazanc)
-    elif (islem == "6"):
+    elif (islem == "5"):
         gise() 
     else:
         print("Farklı bir sayı girdiniz, lütfen tekrar deneyin.")
