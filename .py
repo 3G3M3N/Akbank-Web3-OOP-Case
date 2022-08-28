@@ -72,10 +72,13 @@ class yönetim:
     def __init__(self):
         print("Yönetim İşlemlerine Hoşgeldiniz!)
         yönetimislem = input("1: Geçen Araçları Görüntüleme, 2: Toplam Bakiyeyi Görüntüleme")
-        print(gunluk_gecen_arac_listesi)
-
-
-
+        if (yönetimislem == "1"):
+              print(gunluk_gecen_arac_listesi)
+        elif (yönetimislem == "2"):
+              print(gunluk_kazanc)
+        else:
+              print("Geçersiz bir sayı tuşladınız...")
+                             
 #Giriş Ekranı
 print("""
 ---------------------------------------------------------------------
