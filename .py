@@ -102,7 +102,7 @@ Programı kapatmak için 'q' tuşuna basınız.
 
 #Yapılmak İstenen İşlemler İçin:
 while True:
-    islem = input("İşlem Seçiniz: ")
+    islem = input("Ana menü işlemlerinden birini seçiniz: ")
     if (islem == "q"):
         print("Program kapanıyor...")
         break
