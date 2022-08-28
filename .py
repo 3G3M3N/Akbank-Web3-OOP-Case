@@ -114,8 +114,6 @@ while True:
     elif (islem == "4"):
         yönetim()
     elif (islem == "5"):
-        print(gunluk_kazanc)
-    elif (islem == "5"):
         gise() 
     else:
         print("Farklı bir sayı girdiniz, lütfen tekrar deneyin.")
